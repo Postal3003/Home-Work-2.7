@@ -16,6 +16,7 @@
 		6DBE94622870855400350E67 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE94612870855400350E67 /* DataManager.swift */; };
 		6DBE94652870880100350E67 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE94642870880100350E67 /* Person.swift */; };
 		6DBE946A2870908800350E67 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE94692870908800350E67 /* TabBarViewController.swift */; };
+		6DBE946C2870A5AB00350E67 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE946B2870A5AB00350E67 /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6DBE94612870855400350E67 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		6DBE94642870880100350E67 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		6DBE94692870908800350E67 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6DBE946B2870A5AB00350E67 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				6DBE94692870908800350E67 /* TabBarViewController.swift */,
 				6D4202172858A46D005E1233 /* ContactListViewController.swift */,
+				6DBE946B2870A5AB00350E67 /* ContactDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBE94652870880100350E67 /* Person.swift in Sources */,
+				6DBE946C2870A5AB00350E67 /* ContactDetailsViewController.swift in Sources */,
 				6D5E00F62853572500A31D37 /* AppDelegate.swift in Sources */,
 				6DBE94622870855400350E67 /* DataManager.swift in Sources */,
 				6D4202182858A46D005E1233 /* ContactListViewController.swift in Sources */,

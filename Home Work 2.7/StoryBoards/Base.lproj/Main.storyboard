@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="932" y="-90"/>
         </scene>
-        <!--View Controller-->
+        <!--Contact Details View Controller-->
         <scene sceneID="Fun-TS-dFR">
             <objects>
-                <viewController id="rP9-DJ-gPR" sceneMemberID="viewController">
+                <viewController id="rP9-DJ-gPR" customClass="ContactDetailsViewController" customModule="Home_Work_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7sv-AY-mY1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,6 +74,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LMe-Is-dOp"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="42U-ia-dRx" id="bOk-53-pL5"/>
+                        <outlet property="phoneNumberLabel" destination="EAH-bj-Kis" id="8D4-QL-kUm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nAr-a3-yuo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
