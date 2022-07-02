@@ -98,7 +98,7 @@
         <!--Persons List-->
         <scene sceneID="Lgg-K8-uEG">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="tYo-SP-ATB" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="tYo-SP-ATB" customClass="TabBarViewController" customModule="Home_Work_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Persons List" id="HcR-QX-XbC"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YMW-1w-0wB">
