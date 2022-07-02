@@ -53,6 +53,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		6D42021C2858BC7A005E1233 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				6D5E00FB2853572500A31D37 /* Main.storyboard */,
+				6D5E01002853572500A31D37 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		6D5E00E92853572400A31D37 = {
 			isa = PBXGroup;
 			children = (
@@ -72,11 +81,10 @@
 		6D5E00F42853572500A31D37 /* Home Work 2.7 */ = {
 			isa = PBXGroup;
 			children = (
-				6D5E00F52853572500A31D37 /* AppDelegate.swift */,
 				6D5E00F72853572500A31D37 /* SceneDelegate.swift */,
+				6D5E00F52853572500A31D37 /* AppDelegate.swift */,
 				6D4202192858B8A0005E1233 /* ViewControllers */,
-				6D5E01002853572500A31D37 /* LaunchScreen.storyboard */,
-				6D5E00FB2853572500A31D37 /* Main.storyboard */,
+				6D42021C2858BC7A005E1233 /* StoryBoards */,
 				6D5E01032853572500A31D37 /* Info.plist */,
 				6D42021A2858B925005E1233 /* Resources */,
 			);
